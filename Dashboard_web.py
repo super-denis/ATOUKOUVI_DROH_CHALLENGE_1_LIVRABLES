@@ -50,8 +50,8 @@ st.write(kl)
 
 st.subheader("le prix estimé du bien est:")
 
-Lgbm= joblib.load('C:\\Users\\DELL\\OneDrive - ENSEA\Bureau\\GEEK CHALLENGE\\Lgbm.sav')
-Cbst = joblib.load('C:\\Users\\DELL\\OneDrive - ENSEA\Bureau\\GEEK CHALLENGE\\Cbst.sav')
+Lgbm= joblib.load(filename= 'C:\\Users\\DELL\\OneDrive - ENSEA\Bureau\\GEEK CHALLENGE\\Lgbm.sav',mmap_mode=None)
+Cbst = joblib.load(filename= 'C:\\Users\\DELL\\OneDrive - ENSEA\Bureau\\GEEK CHALLENGE\\Cbst.sav',mmap_mode=None)
 #Xgbst = xgboost.Booster().load_model('C:\\Users\\DELL\\OneDrive - ENSEA\Bureau\\GEEK CHALLENGE\\Xgbst.sav')
 
 
